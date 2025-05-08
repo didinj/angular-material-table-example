@@ -1,0 +1,29 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "name": "Robbie Fowler",
+            "team": "Liverpool"
+        },
+        {
+            "id": 2,
+            "name": "Paul Ince",
+            "team": "Manchester United"
+        },
+        {
+            "id": 3,
+            "name": "Eric Cantona",
+            "team": "Manchester United"
+        },
+        {
+            "id": 4,
+            "name": "Thierry Henry",
+            "team": "Arsenal"
+        },
+        {
+            "id": 5,
+            "name": "Alan Shearer",
+            "team": "Newcastle United"
+        }
+    ]
+}

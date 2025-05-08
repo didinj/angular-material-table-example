@@ -1,0 +1,27 @@
+<table mat-table [dataSource]="dataSource" class="styled-table mat-elevation-z8">
+
+    <!-- Photo Column -->
+    <ng-container matColumnDef="photo">
+        <th mat-header-cell *matHeaderCellDef class="styled-th"> Photo </th>
+        <td mat-cell *matCellDef="let player">
+            <img [src]="'/assets/imgs/' + player.photo" alt="{{player.name}}" class="player-photo" />
+        </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef class="styled-th"> Name </th>
+        <td mat-cell *matCellDef="let player"> {{player.name}} </td>
+    </ng-container>
+
+    <!-- Team Column -->
+    <ng-container matColumnDef="team">
+        <th mat-header-cell *matHeaderCellDef class="styled-th"> Team </th>
+        <td mat-cell *matCellDef="let player"> {{player.team}} </td>
+    </ng-container>
+
+    <!-- Rows -->
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+</table>

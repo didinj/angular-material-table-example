@@ -1,0 +1,14 @@
+.table-container {
+    max-height: 400px;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    min-width: 600px;
+}
+
+th.mat-header-cell,
+td.mat-cell {
+    min-width: 120px;
+}
