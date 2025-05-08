@@ -1,27 +1,32 @@
-# MaterialTable
+# Angular Material Table (mat-table) Tutorial – Angular 19+
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+This project demonstrates how to build a **dynamic Angular Material Table** using Angular 19+ with powerful features:
 
-## Development server
+## 🚀 Features
+- ✅ Pagination
+- ✅ Sorting
+- ✅ Filtering
+- ✅ Row selection
+- ✅ Custom styling
+- ✅ Fully working code examples
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📖 Full Tutorial
+Read the full step-by-step article here:  
+👉 [Angular Material Table Tutorial on Djamware](https://www.djamware.com/post/681cbcf7a4681c2e52a67376/angular-material-table-mattable-tutorial-with-examples-pagination-sorting-and-more-with-exampl)
 
-## Code scaffolding
+## 📂 Tech Stack
+- Angular 19+
+- Angular Material
+- TypeScript
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📸 Preview
 
-## Build
+![mat-table preview](preview.png) <!-- Add a screenshot of your table here -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💻 Installation
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+git clone https://github.com/your-username/angular-material-table-tutorial.git
+cd angular-material-table-tutorial
+npm install
+ng serve
